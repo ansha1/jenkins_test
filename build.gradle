@@ -1,1 +1,10 @@
 apply plugin: 'java'
+
+defaultTasks 'hello_world'
+
+task hello_world {
+   doLast
+   {
+      println 'Hello, Gradle!'
+   }
+}
