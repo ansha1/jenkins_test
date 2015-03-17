@@ -1,10 +1,16 @@
 apply plugin: 'java'
 
-defaultTasks 'hello_world'
+uploadArchives {
 
-task hello_world {
-   doLast
-   {
-      println 'Hello, Gradle!'
-   }
+
+	repositories {
+
+		flatDir {
+
+		   dirs ¡®repos¡¯
+
+		}
+
+	}
+
 }
