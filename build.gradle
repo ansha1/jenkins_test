@@ -7,7 +7,7 @@ uploadArchives {
 
 		flatDir {
 
-		   dirs ¡®repos¡¯
+		   dirs 'repos'
 
 		}
 
