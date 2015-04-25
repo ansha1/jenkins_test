@@ -18,6 +18,10 @@ public class Index {
 		System.out.println("----------------------------");
 	}
 
+	public static void dummy(){
+		System.out.println("----------------------------");
+	}
+
 	public static void footer(){//모든 메뉴의 공통적인 꼬릿말 출력
 		System.out.println("----------------------------");
 	}
