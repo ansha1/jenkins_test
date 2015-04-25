@@ -18,10 +18,6 @@ public class Index {
 		System.out.println("----------------------------");
 	}
 
-	public stativ void dummyFunc() {
-		System.out.println("dummy called");
-	}
-	
 	public static void footer(){//모든 메뉴의 공통적인 꼬릿말 출력
 		System.out.println("----------------------------");
 	}
