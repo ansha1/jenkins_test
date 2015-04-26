@@ -18,7 +18,7 @@ sonarRunner {
         property "sonar.jdbc.password", "sonar"
 	property "sonar.projectKey", "myKey"
 	property "sonar.projectName", "test2"
-	property "sonar.projectVersion", 3
+	property "sonar.projectVersion", projectVersion
     }
 }
 
