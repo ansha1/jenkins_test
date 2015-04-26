@@ -1,16 +1,22 @@
 apply plugin: 'java'
+apply plugin: "sonar-runner"
 
 uploadArchives {
-
-
 	repositories {
-
 		flatDir {
-
 		   dirs 'repos'
-
 		}
-
 	}
+}
 
+sonarRunner {
+    sonarProperties {
+        property "sonar.host.url", "http://lcaohost"
+        property "sonar.jdbc.url", "jdbc:mysql://localhost/sonar"
+        property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
+        property "sonar.jdbc.username", "sonar"
+        property "sonar.jdbc.password", "sonar"
+	property "sonar.projectKey", "myKey"
+	property "sonar.projectName", "test2"
+    }
 }
