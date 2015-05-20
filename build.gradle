@@ -1,5 +1,5 @@
 apply plugin: 'java'
-apply plugin: "sonar-runner"
+
 
 uploadArchives {
 	repositories {
@@ -8,6 +8,8 @@ uploadArchives {
 		}
 	}
 }
+
+apply plugin: "sonar-runner"
 
 sonarRunner {
     sonarProperties {
